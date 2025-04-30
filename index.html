@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Geeks</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg"
+      aria-label="Fifth navbar example"
+    >
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          href="#"
+        >
+          <img
+            src="./img/logo.png"
+            alt="Logo"
+          />
+        </a>
+
+        <!-- mobile view -->
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarsExample05"
+          aria-controls="navbarsExample05"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="navbar-collapse collapse"
+          id="navbarsExample03"
+        >
+          <div class="d-flex">
+            <!--  Dropdowns -->
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="browseDropdown"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Browse
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="browseDropdown"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Courses</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Tutorials</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Resources</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="landingsDropdown"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Landings
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="landingsDropdown"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Home Page</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Landing Page</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="pagesDropdown"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="pagesDropdown"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >About Us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="accountsDropdown"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Accounts
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="accountsDropdown"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Profile</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Settings</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  >...</a
+                >
+              </li>
+            </ul>
+
+            <form class="d-flex search-wrapper">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search Courses"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+
+          <div class="d-flex ms-auto mt-2 mt-sm-0 align-items-center">
+            <i class="fas fa-moon user-icon"></i>
+            <button class="btn btn-outline-primary me-2">Sign In</button>
+            <button class="btn btn-signup">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- hero start -->
+    <section
+      class="hero-section bg-white min-vh-100 d-flex align-items-center position-relative m-md-5"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div
+            class="col-xl-6 col-lg-6 col-md-12 text-center text-md-start mb-5 mb-xl-0"
+          >
+            <h1 class="display-2 fw-bold ls-sm mb-3">
+              Become a Vanilla JavaScript Developer
+            </h1>
+            <p class="lead mb-4">
+              In this tutorial, we are going to learn about JavaScript (Vanilla
+              JS) - for building incredible, powerful JavaScript applications.
+            </p>
+
+            <ul class="list-unstyled fs-5 icon-list mb-5">
+              <li class="mb-2">
+                <img
+                  src="./img/clock.png"
+                  alt="Clock"
+                  class="text-warning me-1"
+                  width="18"
+                  height="18"
+                />
+                4 Hours
+              </li>
+              <li class="mb-2">
+                <img
+                  src="./img/video.png"
+                  alt="Video"
+                  class="text-warning me-1"
+                  width="18"
+                  height="18"
+                />
+                12 Videos
+              </li>
+              <li class="mb-2">
+                <img
+                  src="./img/user-icon.png"
+                  alt="User"
+                  class="text-warning me-1"
+                  width="18"
+                  height="18"
+                />
+                10,234+ Enrolled
+              </li>
+            </ul>
+
+            <a
+              href="#"
+              class="btn btn-success btn-lg fs-5 popup-youtube"
+              >Watch Preview</a
+            >
+          </div>
+
+          <div class="col-xl-5 col-lg-6 col-md-12 offset-xl-1">
+            <div
+              class="card smooth-shadow-md"
+              style="z-index: 1"
+            >
+              <div class="card-body p-6">
+                <h2 class="fw-bold mb-4">Create Free Account</h2>
+
+                <div class="row g-2 mb-5">
+                  <div class="col-lg-4">
+                    <button
+                      type="button"
+                      class="btn btn-light shadow-sm w-100 btn-social"
+                    >
+                      <img
+                        width="18"
+                        height="18"
+                        src="./img/google-icon.png"
+                        class="fab fa-google text-danger me-1"
+                        alt=""
+                      />
+                      Google
+                    </button>
+                  </div>
+                  <div class="col-lg-4">
+                    <button
+                      type="button"
+                      class="btn btn-light shadow-sm w-100 btn-social"
+                    >
+                      <img
+                        width="18"
+                        height="18"
+                        src="./img/Twitter-icon.png"
+                        class="fab fa-google text-danger me-1"
+                        alt=""
+                      />
+                      Twitter
+                    </button>
+                  </div>
+                  <div class="col-lg-4">
+                    <button
+                      type="button"
+                      class="btn btn-light shadow-sm w-100 btn-social"
+                    >
+                      <img
+                        width="18"
+                        height="18"
+                        src="./img/facebook-icon.png"
+                        class="fab fa-google text-danger me-1"
+                        alt=""
+                      />
+                      Facebook
+                    </button>
+                  </div>
+                </div>
+
+                <div class="mb-4">
+                  <hr class="border-bottom my-4" />
+                  <div class="text-center mt-n3 lh-1">
+                    <span class="bg-white px-2 fs-6">OR</span>
+                  </div>
+                </div>
+
+                <form>
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="password"
+                      placeholder="Password"
+                    />
+                  </div>
+                  <div class="d-grid">
+                    <button
+                      type="submit"
+                      class="btn btn-signup"
+                    >
+                      Start Courses for Free
+                    </button>
+                  </div>
+                </form>
+              </div>
+
+              <div class="card-footer px-6 py-4">
+                <p class="mb-0">
+                  By continuing you accept the
+                  <a
+                    href="#"
+                    class="text-decoration-none fw-semibold"
+                    >Terms of Use</a
+                  >,
+                  <a
+                    href="#"
+                    class="text-decoration-none fw-semibold"
+                    >Privacy Policy</a
+                  >, and
+                  <a
+                    href="#"
+                    class="text-decoration-none fw-semibold"
+                    >Data Policy</a
+                  >.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+    <!-- feature -->
+
+    <section class="py-4 shadow-sm position-relative bg-white align-content-center p-md-5">  
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="d-flex align-items-center text-dark fw-semibold fs-5">
+              <span
+                class="icon-shape icon-xs rounded-circle bg-light-warning me-2 d-inline-flex align-items-center justify-content-center"
+                style="width: 1.5rem; height: 1.5rem"
+              >
+                <img
+                  src="./img/check-icon.png"
+                  alt="Check Icon"
+                  width="16"
+                  height="16"
+                  class="text-dark-warning"
+                />
+              </span>
+              <span>Shareable Certificate</span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="d-flex align-items-center text-dark fw-semibold fs-5">
+              <span
+                class="icon-shape icon-xs rounded-circle bg-light-warning me-2 d-inline-flex align-items-center justify-content-center"
+                style="width: 1.5rem; height: 1.5rem"
+              >
+                <img
+                  src="./img/check-icon.png"
+                  alt="Check Icon"
+                  width="16"
+                  height="16"
+                  class="text-dark-warning"
+                />
+              </span>
+              <span>Flexible Deadlines</span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="d-flex align-items-center text-dark fw-semibold fs-5">
+              <span
+                class="icon-shape icon-xs rounded-circle bg-light-warning me-2 d-inline-flex align-items-center justify-content-center"
+                style="width: 1.5rem; height: 1.5rem"
+              >
+                <img
+                  src="./img/check-icon.png"
+                  alt="Check Icon"
+                  width="16"
+                  height="16"
+                  class="text-dark-warning"
+                />
+              </span>
+              <span>100% Online Courses</span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="d-flex align-items-center text-dark fw-semibold fs-5">
+              <span
+                class="icon-shape icon-xs rounded-circle bg-light-warning me-2 d-inline-flex align-items-center justify-content-center"
+                style="width: 1.5rem; height: 1.5rem"
+              >
+                <img
+                  src="./img/check-icon.png"
+                  alt="Check Icon"
+                  width="16"
+                  height="16"
+                  class="text-dark-warning"
+                />
+              </span>
+              <span>Approx. 24 hours</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end feature -->
+
+    <!-- start course -->
+    <!-- Course Description Section -->
+    <section class="py-8 py-lg-16 bg-light min-vh-100 align-content-center p-md-5">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="row justify-content-center mb-10 text-center">
+          <div class="col-lg-8 col-md-10 col-sm-12">
+            <span
+              class="text-primary d-block text-uppercase fw-semibold ls-xl mb-3"
+              >Course Description</span
+            >
+            <h2 class="display-4 fw-bold mb-3">What will you learn?</h2>
+            <p class="lead">
+              Vanilla JS is a fast, lightweight, cross-platform framework for
+              building incredible, powerful JavaScript applications.
+            </p>
+          </div>
+        </div>
+
+        <!-- Curriculum Cards -->
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-lg-6 col-sm-12">
+            <div class="card shadow-sm h-100">
+              <div class="card-body p-6">
+                <div
+                  class="d-flex flex-column flex-md-row align-items-start mb-4"
+                >
+                  <div
+                    class="icon-shape icon-xxl rounded-circle btn-signup mb-3 mb-md-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="72"
+                      height="72"
+                      viewBox="0 0 72 72"
+                      fill="none"
+                    >
+                      <script
+                        xmlns=""
+                        id="ZM3tXUN-iIWYtIOiWiBAKPGJYT"
+                        type="text/javascript"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M37 35.882L51 28.882L35.447 21.105C35.3081 21.0355 35.1549 20.9993 34.9995 20.9993C34.8441 20.9993 34.6909 21.0355 34.552 21.105L21 27.882L37 35.882Z"
+                        fill="#E0E1FF"
+                        fill-opacity="0.64"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M37 35.618V50.618L50.447 43.894C50.6132 43.8112 50.7531 43.6837 50.8507 43.5258C50.9484 43.3678 51.0001 43.1858 51 43V28.618L37 35.618Z"
+                        fill="url(#paint0_linear)"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M37 35.618L21 27.618V42C21 42.379 21.214 42.725 21.553 42.895L37 50.618V35.618Z"
+                        fill="#E0E1FF"
+                        fill-opacity="0.24"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear"
+                          x1="51"
+                          y1="39.618"
+                          x2="36.4446"
+                          y2="37.1935"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop
+                            stop-color="white"
+                            stop-opacity="0.64"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="white"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="ms-md-4 mt-2 mt-md-0">
+                    <h3 class="fw-bold mb-1">
+                      Introduction to JavaScript
+                      <span class="ms-2 badge bg-warning">Free</span>
+                    </h3>
+                    <p class="text-uppercase fs-6 fw-semibold mb-0 text-muted">
+                      <span class="text-dark">Course - 1</span>
+                      <span class="ms-3">6 Lessons</span>
+                      <span class="ms-3">1 HOUR 12 MIN</span>
+                    </p>
+                  </div>
+                </div>
+                <p class="fs-5 mb-4">
+                  In et tempus dui, in porta dolor. Donec molestie a purus ut
+                  interdum. Donec quis felis dignissim, luctus libero ornare.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-link btn-link-primary p-0 text-decoration-none"
+                  ><u>View Chapter Details +</u></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-lg-6 col-sm-12">
+            <div class="card shadow-sm h-100">
+              <div class="card-body p-6">
+                <div
+                  class="d-flex flex-column flex-md-row align-items-start mb-4"
+                >
+                  <div
+                    class="icon-shape icon-xxl rounded-circle btn-signup mb-3 mb-md-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="72"
+                      height="72"
+                      viewBox="0 0 72 72"
+                      fill="none"
+                    >
+                      <script
+                        xmlns=""
+                        id="LX9Fxs8KTqhk6kfGGXNrD4oNuE"
+                        type="text/javascript"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M36.5128 20L30.2578 49.99H42.8378L36.5128 20Z"
+                        fill="url(#paint0_linear)"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M30.258 49.99L21 42.57L36.513 20L30.258 49.99Z"
+                        fill="#E0E1FF"
+                        fill-opacity="0.24"
+                      />
+                      <path
+                        opacity="0.8"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M42.7667 49.99L51.9997 42.5L36.5117 20L42.7667 49.99Z"
+                        fill="#E0E1FF"
+                        fill-opacity="0.64"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear"
+                          x1="42.8378"
+                          y1="34.995"
+                          x2="29.556"
+                          y2="33.5366"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop
+                            stop-color="white"
+                            stop-opacity="0.64"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="white"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="ms-md-4 mt-2 mt-md-0">
+                    <h3 class="fw-bold mb-1">JavaScript Beginning</h3>
+                    <p class="text-uppercase fs-6 fw-semibold mb-0 text-muted">
+                      <span class="text-dark">Course - 2</span>
+                      <span class="ms-3">4 Lessons</span>
+                      <span class="ms-3">32 MIN</span>
+                    </p>
+                  </div>
+                </div>
+                <p class="fs-5 mb-4">
+                  Malesuada fames ac turpis egestas. Tempus tincidunt. Aliquam
+                  congue lacus ac tellus consectetur malesuada.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-link btn-link-primary p-0 text-decoration-none"
+                  ><u>View Chapter Details +</u></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-lg-6 col-sm-12">
+            <div class="card shadow-sm h-100">
+              <div class="card-body p-6">
+                <div
+                  class="d-flex flex-column flex-md-row align-items-start mb-4"
+                >
+                  <div
+                    class="icon-shape icon-xxl rounded-circle btn-signup mb-3 mb-md-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="72"
+                      height="72"
+                      viewBox="0 0 72 72"
+                      fill="none"
+                    >
+                      <script
+                        xmlns=""
+                        id="OBHo5ArhNnnIcnDzKslqF_R2Ou"
+                        type="text/javascript"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M32.2721 32.347L34.3541 38.576L37.4441 50.17L24.8731 47.489L19.5581 30.104L32.0371 32.484L32.2721 32.347Z"
+                        fill="#E0E1FF"
+                        fill-opacity="0.24"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M46.8121 23.908L32.0371 32.483L19.5571 30.103L33.8921 22.005L46.8121 23.908Z"
+                        fill="#E0E1FF"
+                        fill-opacity="0.64"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M37.4442 50.17L32.0367 32.4832L46.8124 23.9085L52.1914 41.5026L37.4442 50.17Z"
+                        fill="url(#paint0_linear)"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear"
+                          x1="50.0833"
+                          y1="34.6072"
+                          x2="32.7289"
+                          y2="36.4269"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop
+                            stop-color="white"
+                            stop-opacity="0.64"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="white"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="ms-md-4 mt-2 mt-md-0">
+                    <h3 class="fw-bold mb-1">Variables and Constants</h3>
+                    <p class="text-uppercase fs-6 fw-semibold mb-0 text-muted">
+                      <span class="text-dark">Course - 3</span>
+                      <span class="ms-3">8 Lessons</span>
+                      <span class="ms-3">10 MIN</span>
+                    </p>
+                  </div>
+                </div>
+                <p class="fs-5 mb-4">
+                  Aliquam pulvinar eros a dictur vitae diam imperdiet, ornare
+                  turpis vequet elit nec, imperdiet lectuna liquam qs.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-link btn-link-primary p-0 text-decoration-none"
+                  ><u>View Chapter Details +</u></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-lg-6 col-sm-12">
+            <div class="card shadow-sm h-100">
+              <div class="card-body p-6">
+                <div
+                  class="d-flex flex-column flex-md-row align-items-start mb-4"
+                >
+                  <div
+                    class="icon-shape icon-xxl rounded-circle btn-signup mb-3 mb-md-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="72"
+                      height="72"
+                      viewBox="0 0 72 72"
+                      fill="none"
+                    >
+                      <script
+                        xmlns=""
+                        id="3ksvUguPiek-ErNVOt0Fm8cI9z"
+                        type="text/javascript"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M39.007 48.121L19 43.287L29.179 28.326L29.431 28.413L28.965 28.642L39.007 48.1221V48.121Z"
+                        fill="url(#paint0_linear)"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M39.0508 48.206L28.9648 28.642L42.5098 22L52.5168 41.024L39.0508 48.206Z"
+                        fill="#E0E1FF"
+                        fill-opacity="0.4"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear"
+                          x1="39.007"
+                          y1="38.2241"
+                          x2="19.0275"
+                          y2="32.9385"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop
+                            stop-color="white"
+                            stop-opacity="0.64"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="white"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="ms-md-4 mt-2 mt-md-0">
+                    <h3 class="fw-bold mb-1">Types and Operators</h3>
+                    <p class="text-uppercase fs-6 fw-semibold mb-0 text-muted">
+                      <span class="text-dark">Course - 4</span>
+                      <span class="ms-3">10 Lessons</span>
+                      <span class="ms-3">32 MIN</span>
+                    </p>
+                  </div>
+                </div>
+                <p class="fs-5 mb-4">
+                  In lobortis quam eu augue spendisse imperdiet nec orci ipsum,
+                  tempus pharetra posuere imperdiet, lacinia a nisl.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-link btn-link-primary p-0 text-decoration-none"
+                  ><u>View Chapter Details +</u></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end course -->
+
+    <!-- start instructor -->
+    <section class="py-8 py-lg-16 bg-white min-vh-100 align-content-center p-md-5">
+      <div class="container">
+        <div class="row justify-content-center mb-6">
+          <div class="col-md-10">
+            <div class="row align-items-center">
+              <div
+                class="col-lg-7 col-xl-6 order-2 order-lg-1 text-center text-lg-start"
+              >
+                <span
+                  class=" d-block text-uppercase fw-semibold ls-xl mb-3" 
+                  style="color: #7c5dff;">YOUR INSTRUCTOR</span
+                >
+                <h2 class="display-4 fw-bold mb-3">
+                  Hi, I’m <span style="color: #7c5dff;">James Davies</span>,<br />I
+                  will be taking you through lessons.
+                </h2>
+                <p class="fs-5 text-muted pe-lg-6 mb-5">
+                  Create beautiful websites with this Geeks UI template. Get
+                  started building a site today.
+                </p>
+
+                <hr class="my-5" />
+
+                <div class="row text-center text-lg-start">
+                  <div class="col-sm mb-3 mb-lg-0">
+                    <h3 class="h1 fw-bold mb-0 ls-xs">45</h3>
+                    <p class="mb-0">Lessons</p>
+                  </div>
+                  <div class="col-sm mb-3 mb-lg-0">
+                    <h3 class="h1 fw-bold mb-0 ls-xs">10,500+</h3>
+                    <p class="mb-0">Students</p>
+                  </div>
+                  <div class="col-sm mb-3 mb-lg-0">
+                    <h3 class="h1 fw-bold mb-0 ls-xs">12+</h3>
+                    <p class="mb-0">Learning Hours</p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-5 col-xl-5 offset-xl-1 order-1 order-lg-2 mb-5 mb-lg-0 text-center"
+              >
+                <img
+                  src="./img/INSTRUCTOR.png"
+                  alt="Instructor James Davies"
+                  class="img-fluid rounded"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end instructor -->
+
+    <!-- logos -->
+
+    <section  class="bg-white py-8 py-lg-5 align-content-center  p-md-5" >
+      <div class="container">
+        <div class="row justify-content-center mb-6">
+          <div class="col-lg-8 col-md-10 col-sm-12 text-center">
+            <span
+              class="d-block text-uppercase fw-semibold ls-xl mb-5"
+              style="color: #7c5dff;"
+            >
+              Trusted by top-tier product companies
+            </span>
+          </div>
+        </div>
+
+        <div
+          class="row g-4 justify-content-center align-items-center text-center"
+        >
+          <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+            <img
+              src="./img/stripe-icon.png"
+              alt="Stripe"
+              class="img-fluid opacity-75"
+            />
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+            <img
+              src="./img/airbnb-icon.png"
+              alt="Airbnb"
+              class="img-fluid opacity-75"
+            />
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+            <img
+              src="./img/discord-icon.png"
+              alt="Discord"
+              class="img-fluid opacity-75"
+            />
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+            <img
+              src="./img/intercom-icon.png"
+              alt="Intercom"
+              class="img-fluid opacity-75"
+            />
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+            <img
+              src="./img/pin-icon.png"
+              alt="Pinterest"
+              class="img-fluid opacity-75"
+            />
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+            <img
+              src="./img/netflix-icon.png"
+              alt="Netflix"
+              class="img-fluid opacity-75"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end logos -->
+
+    <!-- Footer -->
+    <footer class="footer bg-white pt-5 pt-lg-10">
+      <div class="container">
+        <div class="row mb-8">
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 text-center text-lg-start mb-5 mb-lg-0"
+          >
+            <img
+              src="./img/logo.png"
+              alt="Geeks Logo"
+              class="logo img-fluid mb-3"
+              width="120"
+            />
+            <p class="text-secondary">
+              Geeks is a feature-rich component library and beautifully crafted
+              Bootstrap UI kit for developers, built with the Bootstrap
+              responsive framework.
+            </p>
+
+            <div class="fs-4 mt-4">
+              <a
+                href="#"
+                class="text-muted me-2"
+                aria-label="Facebook"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  width="1.1rem"
+                  height="1.1rem"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12 2C6.5 2 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="text-muted me-2"
+                aria-label="Twitter"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  width="1.1rem"
+                  height="1.1rem"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="text-muted"
+                aria-label="Instagram"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  width="1.1rem"
+                  height="1.1rem"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <h3 class="fw-bold mb-3">Company</h3>
+            <ul class="list-unstyled nav flex-column">
+              <li>
+                <a
+                  href="#"
+                  class="nav-link p-0 text-secondary"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link p-0 text-secondary"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link p-0 text-secondary"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link p-0 text-secondary"
+                  >Careers</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link p-0 text-secondary"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <h3 class="fw-bold mb-3">Support</h3>
+            <ul class="list-unstyled nav flex-column text-secondary">
+              <li>
+                <a
+                  href="#"
+                  class="nav-link p-0 text-secondary"
+                  >Help & Support</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link p-0 text-secondary"
+                  >Become Instructor</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link p-0 text-secondary"
+                  >Get the App</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link p-0 text-secondary"
+                  >FAQs</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link p-0 text-secondary"
+                  >Tutorial</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <h3 class="fw-bold mb-1">Get in Touch</h3>
+            <p>339 McDermott Points Hettingerhaven, NV 15283</p>
+            <p class="mb-1">Email: <span style="color: #7c5dff;">support@geeksui.com</span></p>
+            <p>
+              Phone:
+              <span class="text-dark fw-semibold text-purple"
+                >(000) 123 456 789</span
+              >
+            </p>
+            <div class="d-flex mt-3">
+              <a href="#"
+                ><img
+                  src="./img/ios-icon.png"
+                  alt="App Store"
+                  class="img-fluid me-2"
+                  width="100"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./img/indroid-icon.png"
+                  alt="Google Play"
+                  class="img-fluid"
+                  width="100"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center border-top pt-4 text-center ">
+          <div class="col-lg-4 col-md-5 col-sm-12 mb-3 mb-md-0  ">  
+            <small class="text-secondary"
+              >© 2024 Geeks-UI, Inc. All Rights Reserved</small
+            >
+          </div>
+          <div class="col-lg-8 col-md-12 col-sm-12 text-md-end">
+            <nav class="nav gap-3 d-flex-md-row justify-content-center justify-content-md-center">
+              <a
+                href="#"
+                class="nav-link ps-0 text-secondary"
+                >Privacy Policy</a
+              >
+              <a
+                href="#"
+                class="nav-link text-secondary"
+                >Cookie Notice</a
+              >
+              <a
+                href="#"
+                class="nav-link d-none d-lg-inline-block text-secondary"
+                >Do Not Sell My Personal Information</a
+              >
+              <a
+                href="#"
+                class="nav-link text-secondary"
+                >Terms of Use</a
+              >
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

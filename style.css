@@ -1,0 +1,19 @@
+/* nav */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+
+  .btn-signup {
+    background-color: #7c5dff;
+    color: white;
+    border: none;
+  }
+  .btn-signup:hover {
+    background-color: #6a4cd9;
+  }
+
+
+
+
+ 
